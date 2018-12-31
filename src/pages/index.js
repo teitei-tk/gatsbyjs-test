@@ -1,3 +1,10 @@
-import React from "react"
+import React from "react";
 
-export default () => <div>Hello world!</div>
+import * as styles from "./index.module.scss";
+
+export default () => (
+  <div className={styles.container}>
+    <h1>Hello-Gatsby</h1>
+    <p>CSS preprocessors are pretty great.</p>
+  </div>
+);

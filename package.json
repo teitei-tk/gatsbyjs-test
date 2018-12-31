@@ -19,6 +19,8 @@
     "react-dom": "^16.5.1"
   },
   "devDependencies": {
-    "gatsby-cli": "^2.4.8"
+    "gatsby-cli": "^2.4.8",
+    "gatsby-plugin-sass": "^2.0.7",
+    "node-sass": "^4.11.0"
   }
 }
