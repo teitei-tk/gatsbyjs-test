@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: [`gatsby-plugin-sass`]
+  siteMetadata: {
+    name: "Hello Typescript Gatsby World!",
+    tagline: "Gatsby + SASS + Typescript = 💪"
+  },
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-typescript"]
 };
