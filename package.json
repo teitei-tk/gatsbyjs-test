@@ -23,6 +23,9 @@
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-typescript": "^2.0.3",
     "node-sass": "^4.11.0",
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.0",
+    "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.2.2"
   }
 }
