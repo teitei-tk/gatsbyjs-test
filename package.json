@@ -16,7 +16,8 @@
   "dependencies": {
     "gatsby": "^2.0.76",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "uikit": "^3.0.0-rc.25"
   },
   "devDependencies": {
     "gatsby-cli": "^2.4.8",

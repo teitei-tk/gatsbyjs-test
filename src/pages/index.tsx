@@ -1,6 +1,8 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 
+import "uikit/dist/css/uikit.css";
+
 import * as styles from "./index.module.scss";
 
 interface IIndexPageProps {
@@ -51,12 +53,14 @@ const Component: React.SFC<IIndexPageProps> = props => {
   const { name, tagline, note } = props.data.site.siteMetadata;
 
   return (
-    <div className={styles.container}>
+    <div>
       <h1>{name}</h1>
       <p>{tagline}</p>
-      {note.posts.map(prop => {
-        return <NotePostComponent {...prop} />;
-      })}
+      <div className="uk-flex uk-flex-center">
+        {note.posts.map(prop => {
+          return <NotePostComponent {...prop} />;
+        })}
+      </div>
     </div>
   );
 };
